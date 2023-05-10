@@ -10,7 +10,7 @@ import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
-import Image from "next/image";
+// import Image from "next/image";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
@@ -83,7 +83,7 @@ export default function Home() {
               <a href="https://github.com/menesdev" target="_blank"><AiFillGithub /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              {/* <Image src={deved} layout="fill" objectFit="cover" /> */}
             </div>
           </div>
         </section>
